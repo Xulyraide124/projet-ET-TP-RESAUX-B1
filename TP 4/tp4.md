@@ -308,7 +308,7 @@ ssh tp4
 ### 1. SCP
 
 ```bash
-scp fichier.txt serveur-tp:/home/etudiant/
+scp fichier.txt tp4:/home/cour/
 ```
 
 

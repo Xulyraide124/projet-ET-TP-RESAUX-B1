@@ -1,4 +1,3 @@
-Bien sûr ! Voici un template structuré pour ton `README.md` pour ce TP OpenVPN, avec sections claires pour coller les réponses, outputs et captures si besoin :
 
 ---
 
@@ -208,7 +207,3 @@ cipher AES-256-CBC
 * Activer une authentification par mot de passe en complément des certificats
 
 ---
-
-Si tu veux, je peux te faire une **version prête à copier-coller avec des sections `OUTPUT:` et `COMMANDES:` formatées**, pour que tu puisses directement coller les logs de tes commandes et captures d’écran dans le README.
-
-Veux‑tu que je fasse ça ?

@@ -71,7 +71,7 @@ Ulysse Prevost Lacaze
 
 ### 8 & 9. Blocage spécifique et Alias
 
-* **Méthode :** Création d'un alias `SITES_INTERDITS`![yoyo](image\image.png).
+* **Méthode :** Création d'un alias `SITES_INTERDITS`![image1](image\image.png).
 * **Pourquoi l'alias :** Centralisation. On modifie une seule liste pour impacter plusieurs règles, rendant la configuration maintenable.
 * **Blocage IP vs Nom :** Le blocage par IP peut être contourné si le site change d'IP ou utilise un CDN (Content Delivery Network).
 * **HTTPS :** Le pare-feu bloque la connexion initiale (IP destination), même si le contenu reste chiffré.
@@ -92,7 +92,7 @@ cour@cour-VirtualBox:~$
 
 ### 10. Blocage réseaux sociaux
 
-* **Alias utilisé :** `RS` contenant les IPs de Facebook.![yoyo](image\image2.png)
+* **Alias utilisé :** `RS` contenant les IPs de Facebook.![image2](image\image2.png)
 * **Règle sous un "Pass Any" :** Elle serait inefficace car pfSense s'arrête à la première règle correspondante. Si le "Pass" est au-dessus, le trafic est autorisé avant d'être filtré.
 * **preuve** :
 
@@ -111,7 +111,7 @@ cour@cour-VirtualBox:~$
 
 * **Utilité en entreprise :** Limiter l'accès aux sites non-essentiels durant les heures de production pour garantir la bande passante et la productivité.
 * **Mise en place :** Horaire `Heures_Bureau` appliqué à la règle `RS` (icône horloge jaune visible).
-![yoyo](image\image3.png)
+![image3](image\image3.png)
 
 ### 12. Serveur web local
 
@@ -121,7 +121,7 @@ cour@cour-VirtualBox:~$
 
 * **Observations :** Les logs montrent clairement les paquets bloqués (croix rouge) vers les IPs de Facebook et Pornhub.
 * **Identification :** En survolant l'icône dans les logs, pfSense indique la règle exacte ayant provoqué le rejet.
-![yoyo](image\image4.png)
+![image4](image\image4.png)
 
 ### 14. DMZ
 
